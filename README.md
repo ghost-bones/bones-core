@@ -65,17 +65,21 @@ Following is an orientation of the bones-core theme, for full documentation chec
 The theme follow the basic structure listed in the [official handlebars-themes documentation](https://docs.ghost.org/api/handlebars-themes/structure/) and includes the  optional /partials directory for storing reused code. The goal here is to cut down on development work so it is best not to repeat ourselves if we don't have to.
 
 ```bash
+├── amp.hbs
 ├── /assets
     ├── /css
         ├── screen.css
     ├── /fonts
     ├── /images
     ├── /js
-├── /partials
+├── author.hbs
 ├── default.hbs
+├── error.hbs
 ├── index.hbs
-├── post.hbs
-└── package.json
+├── package.json
+├── /partials
+└── post.hbs
+
 
 ```
 
@@ -96,5 +100,5 @@ In creating this theme a few assumptions have been about you as a developer and 
 
 Additionally your clients and customers want;
 
-* A consistent brand experience for their users,
+* A consistent brand experience for their users and you are working from a style guide.
 * To be able to manage all their content via Ghost, including updating branding and menus.
