@@ -32,9 +32,9 @@ git clone https://github.com/ghost-bones/bones-core.git your-theme
 
 ## Ghost CLI Local Development
 ### Requirements
-For local independant development we recommend using the [Ghost-CLI](https://docs.ghost.org/install/local/).
+For local independent development we recommend using the [Ghost-CLI](https://docs.ghost.org/install/local/).
 
-If you havn't already installed [Node.js](https://nodejs.org/en/) and Node Package Manager which is included in Node.js you will require it to be able to install the Ghost-CLI.
+If you have not already installed [Node.js](https://nodejs.org/en/) and Node Package Manager which is included in Node.js you will require it to be able to install the Ghost-CLI.
 
 ### Ghost CLI Install
 If you have NPM (Node Package Manager) installed run
@@ -61,3 +61,10 @@ While we are developing initially for ourselves we hope that many others find th
 Following is an orientation of the bones-core theme, for full documentation check out the [official theme development guide](https://docs.ghost.org/api/handlebars-themes/) from Ghost.
 
 The theme follow the basic structure listed in the [official handlebars-themes documentation](https://docs.ghost.org/api/handlebars-themes/structure/) and includes the  optional /partials directory for storing reused code. The goal here is to cut down on development work so it is best not to repeat ourselves if we don't have to.
+
+This theme does borrow some of its code from *Casper* the default theme for [Ghost](http://github.com/tryghost/ghost/).
+
+This has been done for a couple of reasons;
+* If you are already developing using Casper as a working base you will be familiar with it, so it should help reduce development,
+* To reduce the development time for this theme, and
+* Because that is what it is there for.
