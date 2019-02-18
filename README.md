@@ -12,9 +12,17 @@ It is not a full theme that can be installed on any Ghost CMS, it is designed to
 While posts are apart of the theme this is not a starting point for Magazine/Blogging style themes.
 
 # How to Use
-To start using Bones for Ghost start by cloning this repository. 
+## Quick Start
+For a quick start to use Bones for Ghost start by cloning this repository. 
 
-In your terminal use ```git clone https://github.com/ghost-bones/bones-core.git ```
+In your terminal change to your ```/content/themes/``` and use ```git clone https://github.com/ghost-bones/bones-core.git ``` to clone the theme.
+
+## Ghost CLI Local Development
+For local independant development we recommend using the [Ghost-CLI](https://docs.ghost.org/install/local/).
+
+If you havn't already install it you will require [Node.js](https://nodejs.org/en/) and Node Package Manager to be able to install the Ghost-CLI.
+
+## Ghost Docker
 
 # The future
 It is our hope that through the development of this theme core and an accompanying CLI that we can allow developers to quickly provision a theme core as well as any additional required custome pages and posts. 
