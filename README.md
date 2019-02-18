@@ -1,5 +1,5 @@
 # Bones for Ghost CMS
-Bones for Ghost is a commercial boilerplate [handlebarsjs](https://handlebarsjs.com/)theme for web developers to create sites and themes for clients and commercial sale.
+Bones for Ghost is a commercial boilerplate [handlebarsjs](https://handlebarsjs.com/) theme for web developers to create sites and themes for clients and commercial sale.
 
 ## Purpose of the Theme
 When we started our journey to transition to use Ghost CMS as our primary content management system for client jobs we found it difficult to find Ghost themes that are outside of Magazine and Blogging sites.
@@ -58,10 +58,28 @@ Refer to the Quick Start instructions above.
 While we are developing initially for ourselves we hope that many others find this helpful. We are very eager to fix bugs and also to look at any feature requests. Please use this repo's issues section to log any bugs or feature requests.
 
 # Theme development
+## Official Ghost Theme Development Documentation
 Following is an orientation of the bones-core theme, for full documentation check out the [official theme development guide](https://docs.ghost.org/api/handlebars-themes/) from Ghost.
 
+## Theme Structure
 The theme follow the basic structure listed in the [official handlebars-themes documentation](https://docs.ghost.org/api/handlebars-themes/structure/) and includes the  optional /partials directory for storing reused code. The goal here is to cut down on development work so it is best not to repeat ourselves if we don't have to.
 
+```bash
+├── /assets
+    ├── /css
+        ├── screen.css
+    ├── /fonts
+    ├── /images
+    ├── /js
+├── /partials
+├── default.hbs
+├── index.hbs
+├── post.hbs
+└── package.json
+
+```
+
+## Props to a Friendly Ghost
 This theme does borrow some of its code from *Casper* the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
 This has been done for a couple of reasons;
