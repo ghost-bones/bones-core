@@ -48,7 +48,8 @@ To [install Ghost](https://docs.ghost.org/install/local/) for local development 
 ```bash
 ghost install local
 ``` 
-in the terminal. 
+in the terminal. This will install a local development version of Ghost on your machine and spin it up to enable you to start developing.
+For full instructions on how to manage a Ghost installation refer to the [Ghost CLI Documentation](https://docs.ghost.org/install/local/#starting--stopping)
 
 ### Bones Install
 Refer to the Quick Start instructions above.
