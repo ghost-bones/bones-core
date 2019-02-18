@@ -86,3 +86,15 @@ This has been done for a couple of reasons;
 * If you are already developing using Casper as a working base you will be familiar with it, so it should help reduce development,
 * To reduce the development time for this theme, and
 * Because that is what it is there for.
+
+## Theme Development Assumptions
+In creating this theme a few assumptions have been about you as a developer and what type of theme you are developing.
+
+* You are developing for either a specific commercial client, or
+* You are developing themes for free/sale for use by other developers or end users, and
+* Your development skills may range from HTML/CSS to full-stack developers.
+
+Additionally your clients and customers want;
+
+* A consistent brand experience for their users,
+* To be able to manage all their content via Ghost, including updating branding and menus.
