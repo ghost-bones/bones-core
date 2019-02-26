@@ -102,3 +102,9 @@ Additionally your clients and customers want;
 
 * A consistent brand experience for their users and you are working from a style guide.
 * To be able to manage all their content via Ghost, including updating branding and menus.
+
+# Theme Development
+Now that you have have pulled bones-core for ghost you are ready to start your theme development. You are of course welcome to start anywhere but if you are starting out you might find it best to follow the below guide to get you going.
+
+## package.json
+The package.json is like the base information of who and what your theme is. The details are reasonably self explanatory but you can find the [official documentation here](https://docs.ghost.org/api/handlebars-themes/packagejson/).
