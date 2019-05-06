@@ -80,7 +80,6 @@ The theme follow the basic structure listed in the [official handlebars-themes d
 ├── /partials
 └── post.hbs
 
-
 ```
 
 ## Props to a Friendly Ghost
@@ -108,3 +107,8 @@ Now that you have have pulled bones-core for ghost you are ready to start your t
 
 ## package.json
 The package.json is like the base information of who and what your theme is. The details are reasonably self explanatory but you can find the [official documentation here](https://docs.ghost.org/api/handlebars-themes/packagejson/).
+
+## Customisation
+
+### Design Tokens
+bones-core is designed to work with InVision's Design System Manager
